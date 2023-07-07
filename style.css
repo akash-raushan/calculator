@@ -1,0 +1,60 @@
+.button{
+    width: 86px;
+    padding: 20px;
+    margin:0 3px; 
+    border-radius: 15px;
+    border: 2px solid black;
+    cursor:pointer;
+    font-size: 30px;
+}
+
+.row{
+    margin: 5px 0;
+}
+
+.input{
+    font-size: 20px;
+    padding: 20px 60px;
+    border:2px solid blue;
+    border-radius: 9px;
+}
+
+
+@media screen and (max-width:800px)
+ {
+    .button{
+        width: 56px;
+        padding: 10px;
+        margin:0 3px; 
+        border-radius: 15px;
+        border: 2px solid black;
+        cursor:pointer;
+        font-size: 30px;
+    }
+    .input{
+        font-size: 13px;
+        padding: 15px 40px;
+        border:2px solid blue;
+        border-radius: 9px;
+    }
+ }
+
+
+ @media screen and (max-width:300px)
+ {
+    .button{
+        width: 46px;
+        padding: 10px;
+        margin:0 3px; 
+        border-radius: 15px;
+        border: 2px solid black;
+        cursor:pointer;
+        font-size: 30px;
+    }
+    .input{
+        font-size: 9px;
+        padding: 8px 30px;
+        border:2px solid blue;
+        border-radius: 9px;
+    }
+ }

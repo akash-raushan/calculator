@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .btn{
+        @apply  py-6 px-8 text-center  rounded-[50%]  font-semibold text-3xl  w-40 lg:w-24 cursor-default
+    }
+}
